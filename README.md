@@ -1,6 +1,6 @@
 # PRS-2024-10-31-ISY5002-GP22-Skin-Diseases-Classifier
 
-![img](Miscellaneous/cover.jpg)
+![img](Miscellaneous/sd_header.jpg)
 
 ------
 
