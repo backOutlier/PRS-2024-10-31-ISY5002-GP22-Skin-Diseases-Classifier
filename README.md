@@ -7,12 +7,11 @@
 ## SECTION 1 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 
 ------
-`    `Our project develops an advanced speech recognition-based polygraph system with the aim of providing an innovative alternative to the traditional polygraph for criminal investigations and other areas. The traditional methods, for example the polygraph, have been the subject of criticism on ethical grounds and with regard to their reliability. In view of this, we propose a voice-based polygraph model that uses machine learning to enhance detection accuracy. This provides a more transparent, non-intrusive and adaptable solution for detection. 
+`    `This project develops an AI-powered diagnostic system for skin disease classification. By using advanced deep learning models in image classification area—ResNet50, DenseNet121, and VGG16, the system achieves a diagnostic accuracy range of 55-70% across 23 skin disease categories. And by further applying a hard-voting ensemble method, it combines model strengths, enhancing the precision and robustness of skin disease identification, notably improving classification performance for common conditions like acne, nail fungus, and melanoma. 
   
-  `    `The project addresses the shortcomings of existing polygraph techniques, particularly in regard to data transparency, model interpretability and cross-domain applicability. They are achieved by integrating a range of machine learning models (including Random Forests, Support Vector Machines, KNN and others) and we utilise the soft-voting integration methods to enhance the reliability and accuracy of the predictions.  
-    
-`    `From a commercial perspective, the project's voice lie detector system has the potential for a wide range of applications in multiple fields, including criminal justice, corporate censorship and insurance claims. Our system can be offered on a per-use or subscription basis through a software-as-a-service (SaaS) cloud platform model, making it suitable for a variety of users, including law enforcement agencies, healthcare organisations, insurance companies, and corporate users. The system has been developed with the objective of meeting the specific needs of a range of enterprises. It could assist customers in making efficient judgments in different scenarios such as employee selection, internal vetting, and fraud detection. 
-
+  `    `Additionally, the system is deployed as an interactive web application, allowing healthcare providers and patients to upload images and receive real-time diagnostic feedback in a streamlined manner. The front-end is built using Vue.js for its flexibility and responsiveness, combined with Vite for fast-build development, which enhances the user experience. The interface uses Axios to handle asynchronous HTTP requests, enabling smooth data transmission between the front-end and the Django-based backend. To improve accessibility and foster trust, the system incorporates interpretable results, supporting clinicians in complex cases and providing patients with a preliminary self-assessment tool.   
+  
+`    `Future work includes broadening the dataset to ensure representation across skin tones, age groups, and rare conditions, as well as integrating multimodal data—such as patient history and clinical test results—for a more comprehensive diagnostic view. Incorporating a real-time feedback mechanism will also allow for continuous model retraining, improving diagnostic accuracy across diverse clinical applications. This AI-based diagnostic system sets a new standard in accessible, accurate dermatology tools, benefiting both medical professionals and patients worldwide.
 
 
 ## SECTION 2 : CREDITS / PROJECT CONTRIBUTION
@@ -21,28 +20,17 @@
 
 | Official Full Name | Student ID (MTech Applicable) | Work Items (Who Did What)                                    | Email (Optional)                                      |
 | ------------------ | ----------------------------- | ------------------------------------------------------------ | ----------------------------------------------------- |
-| Mohan Liu          | A0297443U                     | 1. The process of cleaning data, extracting features, training models (such as KNN and SVM), and evaluating models. <br>2. Develop integrated models and produce soft voting algorithms to integrate the most accurate algorithms, as well as prepare implementation documents.<br> 3. Contribute to the preparation(write and revise) of reports and the design of their layout. <br>4. Delegate tasks and monitor progress. | [e1351581@u.nus.edu](mailto:e1351581@u.nus.edu)       |
+| Mohan Liu          | A0297443U                     | 1. The process of cleaning data, extracting features, training models (such as ResNet50), and evaluating models. <br>2. Develop integrated models and produce hard voting algorithms to integrate the most accurate algorithms, as well as prepare implementation documents.<br> 3. Contribute to the preparation(write and revise) of reports and the design of their layout. <br>4. Delegate tasks and monitor progress. | [e1351581@u.nus.edu](mailto:e1351581@u.nus.edu)       |
 | Yuhao Zhou         | A1234567B                     | 1. Literature review  <br>2. Training MobileNet model <br>3. Server transmission testing<br> 4. Part of report writing <br>5.Demo recording<br>6.Web application front-end development | [zhouyuhao24@u.nus.edu](mailto:zhouyuhao24@u.nus.edu) |
 | LiXin Zhang        | A0279544N                     | 1. Participate in system design discussions and draw system architecture diagrams <br>2. Participate in model design and write reports on model training part <br>3. Participate in report integration <br>4. Produce PowerPoint and video for system design section | [E1351682@u.nus.edu](mailto:E1351682@u.nus.edu)       |
 | Zhiyuan Zhang      | A0297736J                     | 1. project reproduction, project Intro, data collection <br>2. model training <br>3.related report writing | [e1351874@u.nus.edu](mailto:e1351874@u.nus.edu)       |
-| Wenyu Zhong         | A0294636R                     | 1.mainly responsible for web application backend development
- <br>2. nvolved in integration of the model
- <br>3.participating in report writing and ppt video creation
- | [e1348774@u.nus.edu](mailto:e1348774@u.nus.edu)       |
+| Wenyu Zhong         | A0294636R                     | 1.mainly responsible for web application backend development<br>2. nvolved in integration of the model<br>3.participating in report writing and ppt video creation| [e1348774@u.nus.edu](mailto:e1348774@u.nus.edu)       |
 
 ------
 
-## SECTION 3 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-
-
-
-[![BUSINESS and DEMO](Video/ISY500PRE（business and demo).mp4)](https://youtu.be/vqprQnLd8X0)]  
-<rb>
-[![System and Tech]([Video/ISY5001-Project-Pre(tech and system).mp4)](https://youtu.be/WfFMWGkmkG8)]
-
 ------
 
-## SECTION 4 : USER GUIDE
+## SECTION 3 : USER GUIDE
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
 
 Make sure all developer tools have been installed:
